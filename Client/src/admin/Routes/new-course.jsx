@@ -49,7 +49,7 @@ class NewCourse extends Component {
     formDataInstance.forEach((v, i) => {
       data[i] = v;
     });
-    let res = new FormsApi().post("/new-course", data);
+    let res = new FormsApi().post("/admin/new-course", data);
     console.log(res);
   };
   //mui
